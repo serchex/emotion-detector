@@ -3,6 +3,9 @@
 This project is an **emotion detection system** that uses **BERT embeddings** combined with a **CatBoost classifier** to predict emotions from text.  
 It supports **both Spanish and English** thanks to an integrated translation step.
 
+## Visual Interaction In Streamlit
+-https://emotion-detector-sergio-gonzalez.streamlit.app
+
 ## 🚀 Features
 - Preprocessing with text cleaning and stopwords removal.
 - BERT-based embeddings (`distilbert-base-nli-mean-tokens`).
