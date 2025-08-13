@@ -4,6 +4,7 @@ This project is an **emotion detection system** that uses **BERT embeddings** co
 It supports **both Spanish and English** thanks to an integrated translation step.
 
 ## Visual Interaction In Streamlit
+<img width="818" height="398" alt="Image" src="https://github.com/user-attachments/assets/1cb6a95a-f973-43f8-94fa-3833308355fb" />
 -https://emotion-detector-sergio-gonzalez.streamlit.app
 
 ## 🚀 Features
