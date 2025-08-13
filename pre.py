@@ -5,10 +5,10 @@ import nltk as nl
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
-#nl.download('stopwords')
-#nl.download('punkt')
-#nl.download('punkt_tab')
-#nl.download('wordnet')
+nl.download('stopwords')
+nl.download('punkt')
+nl.download('punkt_tab')
+nl.download('wordnet')
 
 
 def clean_text(texto):
