@@ -16,6 +16,25 @@ le.fit(df_original['emocion'])
 def traductor(texto):
     return GoogleTranslator(source='auto', target='en').translate(texto)
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(135deg, #2E2EFF, #8B2EFF, #FF2EB2, #FF6F2E);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        color: white;
+    }
+
+    @keyframes gradientBG {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 st.title('Detector de emociones 😠🥺🥰')
 st.write('Escribe una frase y te dire que emocion detecta el modelo.')
 
