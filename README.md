@@ -9,21 +9,21 @@ It supports **both Spanish and English** thanks to an integrated translation ste
 **CLICK HERE**
 -https://emotion-detector-sergio-gonzalez.streamlit.app
 
-## 🚀 Features
+##  Features
 - Preprocessing with text cleaning and stopwords removal.
 - BERT-based embeddings (`distilbert-base-nli-mean-tokens`).
 - CatBoost classifier for emotion prediction.
 - Automatic translation from Spanish to English.
 - Web interface using **Streamlit**.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Python 3.8+**
 - [Sentence-Transformers](https://www.sbert.net/) for BERT embeddings
 - [CatBoost](https://catboost.ai/) for classification
 - [Deep Translator](https://pypi.org/project/deep-translator/) for automatic translation
 - [Streamlit](https://streamlit.io/) for the web interface
 
-## 📦 Installation
+##  Installation
 1. Clone this repository:
 ```bash
 git clone https://github.com/serchex/emotion-detector.git
@@ -36,7 +36,7 @@ Install NLTK resources:
     nltk.download('stopwords')
     nltk.download('wordnet')
 
-⚙️ Training the Model
+ Training the Model
 Run the embedding generation and training pipeline:
     python bert.py
     python catboost_train.py
@@ -49,7 +49,7 @@ catboost_emociones.cbm
 
 label_encoder.pkl
 
-🔍 Making Predictions (CLI)
+ Making Predictions (CLI)
 You can make predictions directly from the terminal:
 
 python predicts.py
@@ -58,20 +58,20 @@ Example output:
 Input: "Estoy muy feliz de verte"
 Translated: "I am very happy to see you"
 Predicted emotion: happy
-🌐 Running the Streamlit App
+ Running the Streamlit App
 Launch the interactive web interface:
 
 streamlit run app.py
 Then open the local URL shown in your terminal.
 
-📊 Visualization
+ Visualization
 
 You can visualize classification results using:
 Bar charts of predicted emotion counts.
 t-SNE scatter plots of embeddings clustered by predicted emotion.
 
-📜 License
+ License
 This project is licensed under the MIT License.
 
-🤝 Contributing
+ Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
